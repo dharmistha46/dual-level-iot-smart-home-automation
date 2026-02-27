@@ -1,0 +1,79 @@
+Dual-Level IoT Smart Home Automation System
+Components List
+--------------------------------------------
+
+LEVEL 1: AUTOMATIC DOOR SYSTEM
+
+1. Arduino Uno
+   - Microcontroller board based on ATmega328P
+   - Operating Voltage: 5V
+
+2. IR Sensor Module
+   - Used for human presence detection
+   - Digital output (HIGH/LOW)
+
+3. L293D Motor Driver IC
+   - Dual H-Bridge Motor Driver
+   - Used to drive DC motor safely
+
+4. DC Motor
+   - Used for door movement (forward & reverse rotation)
+
+5. Power Supply
+   - 5V for Arduino
+   - External supply for motor (as required)
+
+6. Mechanical Door Model
+   - Hinged or sliding door prototype structure
+
+7. Connecting Wires
+   - Male-to-Male / Male-to-Female jumper wires
+
+8. Breadboard (for prototyping)
+
+
+--------------------------------------------
+
+LEVEL 2: RAIN-RESPONSIVE PROTECTION SYSTEM
+
+1. Arduino Board (Uno)
+   - Used for sensor data processing
+
+2. Rain Sensor Module
+   - Water detection plate
+   - Analog/Digital output
+
+3. MG996R Servo Motor
+   - High torque servo
+   - Used to control pulley mechanism
+
+4. Pulley Mechanism
+   - Rope + wheel system
+   - Mechanically connected to servo
+
+5. Power Supply
+   - 5V regulated supply for Arduino
+   - Adequate current for servo motor
+
+6. Mounting Structure
+   - Frame or base to hold pulley and servo
+
+7. Connecting Wires
+   - Jumper wires for circuit connections
+
+--------------------------------------------
+
+Optional / Future Expansion Components
+
+1. ESP32 (for WiFi-based IoT connectivity)
+2. IoT Cloud Platform (ThingSpeak / Blynk)
+3. LCD Display Module (16x2)
+4. Buzzer (for alerts)
+5. Limit Switches (for enhanced safety)
+
+--------------------------------------------
+
+Total Systems:
+- 2 Independent Subsystems
+  • Human Access Automation
+  • Rain-Based Asset Protection
